@@ -6,6 +6,145 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Login */
+
+.container.login {
+    background: #161a20;
+    align-items: center;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    /* height: 300px; */
+    border-radius: 10px;
+    background: #303945;
+    color: #fff;
+    padding: 10px;
+    /* padding-top: 50px; */
+    margin-top: 40px;
+    position: relative;
+    box-shadow: #000 0 0 5px;
+}
+
+.login-form .user-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background:  #232a34;
+    border: 5px solid #fff;
+    color: #fff;
+    font-size: 3em;
+    position: absolute;
+    box-shadow: #000 0 0 5px;
+    left: 37%;
+    top: -10%;
+}
+
+.login-header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 50px; */
+    /* margin-top: 10px; */
+    /* background: #ccc; */
+}
+
+.login-header .logo-utec {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    /* background: #3a0116; */
+}
+
+.login-header img {
+    width: 300px;
+}
+
+.login-header span.title,
+.login-header span.subtitle {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
+    /* margin-bottom: 10px; */
+    letter-spacing: 1px;
+}
+
+.login-header span.subtitle {
+    margin-bottom: 0px;
+    font-size: 1em;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 40px; */
+    padding: 10px;
+    /* border-radius: 5px; */
+    /* box-shadow: #5d0a28 0 2px 5px; */
+}
+
+.input-container label {
+    width: 100%;
+    font-size: 0.9em;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"],
+.buscador input[type="text"],
+.buscador input[type="date"] {
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 1em;
+    /* border: 2px solid #000; */
+    border: none;
+}
+
+.input-container input[type="text"]:focus,
+.input-container input[type="password"]:focus,
+.buscador input[type="text"]:focus,
+.buscador input[type="date"]:focus {
+    border: 3px solid #232a34;
+}
+
+input[type="submit"] {
+    font-size: 1em;
+    border: none;
+    background: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.1s;
+}
+
+input[type="submit"]:hover {
+    background: #08101b;
+    color: #fff;
+}
+
+input[type="submit"]:active {
+    color: #fff;
+    background: #5d0a28;
+    box-shadow: 1px 1px 2px #000;
+}
+
+/* Fin login */
+
 hr {
     width: 100%;
     height: 5px;
@@ -54,10 +193,15 @@ hr {
 .header-options .logout {
     margin-left: 20px;
     cursor: pointer;
+}
+
+.header-options .logout a {
+    text-decoration: none;
+    color: #fff;
     transition: all ease 0.3s;
 }
 
-.header-options .logout:hover {
+.header-options .logout a:hover {
     color: tomato;
 }
 

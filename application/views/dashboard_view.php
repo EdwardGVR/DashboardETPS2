@@ -6,9 +6,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title>Dashboard</title>
-	<link rel="stylesheet" href="<?= base_url(); ?>css/main.css">
+	<link rel="stylesheet" href="<?= base_url(); ?>../css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link href="css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+	<link href="<?= base_url() ?>../css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
 </head>
 <body>
 
