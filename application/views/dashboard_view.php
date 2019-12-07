@@ -13,7 +13,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div class="container">
-	<?php $this->load->view('header_view.php') ?>
 	<?php $this->load->view('menu_view.php') ?>
 
 	<div class="dashboard">
