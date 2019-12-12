@@ -7,10 +7,10 @@ class Inicio extends CI_Controller {
 	{
 		$this->load->helper('url');
 
-		$this->load->view('dashboard_view');
-	}
+		$usuario = $this->session->usuario;
 
-	public function otro () {
-		echo "dsad";
+		$data = array('usuario' => $usuario);
+
+		$this->load->view('dashboard_view', $data);
 	}
 }

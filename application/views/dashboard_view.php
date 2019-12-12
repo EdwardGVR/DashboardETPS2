@@ -6,9 +6,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title>Dashboard</title>
-	<link rel="stylesheet" href="<?= base_url(); ?>../css/main.css">
+	<link rel="stylesheet" href="<?= base_url(); ?>css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link href="<?= base_url() ?>../css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+	<link href="<?= base_url() ?>css/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
 </head>
 <body>
 
@@ -26,8 +26,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<tr>
 						<td class="medida">Medida</td>
 						<td>Valor actual</td>
-						<td>Valor esperado</td>
-						<td>Cumplimiento</td>
+						<td>Valor ideal</td>
+						<td>Balance</td>
 						<td class="indicador">Indicador</td>
 						<td class="detalles">Detalles</td>
 					</tr>

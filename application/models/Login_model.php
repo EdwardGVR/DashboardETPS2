@@ -2,7 +2,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Login_model extends CI_Model {
-    public function validate ($u, $c) {
-        $this->db->get_where()("usuarios", array('usuario' => $usuario, 'clave' => $clave));
+
+
+    public function validate () {
+        $u = $this->input->post('user');
+        $c = $this->input->post('pass');
+
+        $query = $this->db->get_where("usuarios", array('usuario' => $u, 'clave' => $c));
+
+        return $query;
     }
 }
