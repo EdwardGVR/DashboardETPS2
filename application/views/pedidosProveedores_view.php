@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 
 		<div class="medidas">
-			<iframe src="" height="1000" width="100%"></iframe> 
+			<iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzExNTg2MTMtYzU1OC00MTgzLTk5MGQtZTU5ZDQwMDk0NzZhIiwidCI6IjYzNmZlM2M0LTBlZmYtNGY3Ny1hZTk1LTBkNDdiMjhhZWRiYyIsImMiOjR9" height="1000" width="100%"></iframe> 
 		</div>
 	</div>
 </div>
