@@ -13,9 +13,9 @@
 
     <div class="options">
         <div class="links">
-            <a href="<?= base_url() ?>Inicio" class="link">DASHBOARD</a>
-            <a href="#" class="link">OPCION</a>
-            <a href="#" class="link">OPCION</a>
+            <a href="<?= base_url() ?>InversionInicial" class="link">Inversi&oacute;n Inicial</a>
+            <a href="<?= base_url() ?>ControlConsumo" class="link">Control de Consumo</a>
+            <a href="<?= base_url() ?>PedidosProveedores" class="link">Pedidos a proveedores</a>
         </div>
     </div>
 </div>
