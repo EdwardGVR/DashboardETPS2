@@ -23,6 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<div class="medidas">
 			<!-- Grafico / tabla aqui -->
+			<iframe src="" height="1000" width="100%"></iframe> 
 		</div>
 	</div>
 </div>
